@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "../globals.css";
+import 'animate.css';
 
 const poppins = Poppins({
   subsets: ["latin"],
