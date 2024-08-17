@@ -12,7 +12,7 @@ export default function HomePage() {
   const t = useTranslations('HomePage');
   return (
     <>
-    <h2>Hello World</h2>
+    <h2 className="animate__animated animate__rubberBand">Hello World</h2>
     </>
   
     
