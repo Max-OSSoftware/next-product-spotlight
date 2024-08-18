@@ -9,10 +9,11 @@ import {useTranslations} from 'next-intl';
 import { Button } from '@/components/ui/button'
 
 export default function HomePage() {
-  const t = useTranslations('HomePage');
+  const t = useTranslations('Index');
   return (
-    <>
-    <h2 className="animate__animated animate__rubberBand">Hello World</h2>
+    <><main className="flex min-h-screen flex-col items-center justify-between mt-10 p-10">
+    <h2 className="animate__animated animate__rubberBand">{t('paragraph')}</h2>
+    </main>
     </>
   
     

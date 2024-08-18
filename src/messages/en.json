@@ -1,6 +1,7 @@
 {
-  "HomePage": {
+  "Index": {
     "title": "DMX",
+    "paragraph": "testing this for bounce HELLO World!",
     "ImageUrl":"https://storage.googleapis.com/dinan/dinanweb/lrg1.png"
   }
 }
